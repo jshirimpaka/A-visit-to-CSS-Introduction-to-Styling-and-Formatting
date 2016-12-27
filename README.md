@@ -1,6 +1,6 @@
 # A visit to CSS: Introduction to Styling and formatting as well as coloring
 
-For this exercise, I create a simple website to act as a guide to my city of St. Louis. It highlights about 4 of your favorite places in y These can include restaurants, parks, museums, activities, or other features that I enjoy about the city.
+For this exercise, I create a simple website to act as a guide to my city of St. Louis. It highlights about 4 of my favorite places in the city of St. Louis. These can include restaurants, parks, museums, activities, or other features that I enjoy about the city.
 
 
 ## Execise Objectives
