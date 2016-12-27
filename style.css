@@ -1,0 +1,146 @@
+/*head{
+  position: fixed; top: -20px; right: 50px;
+}
+*/
+
+/*source w3school.com*/
+/*changing the body background color*/
+body {
+    background-color:  hsla(50, 30%, 30%, 0.5);
+     max-width: 1200px;
+     margin:auto;
+     width: 70%;
+     margin-left: auto;
+     margin-right: auto;
+     /*change the title weight*/
+     font-weight: 100;
+}
+
+/*change the title background color and front-size*/
+h1{
+background-color:  rgb(80, 125, 125);
+/*change the title to italic and uppercase*/
+font-style: italic;
+text-transform: uppercase;
+color:blue;
+font-size: 50px
+
+width: 50%;
+heigh:50%;
+border-style: solid;
+border-width: 3px 12px 2px 18px;
+position: fixed; top: -15px; right: 700px;
+}
+
+
+/*change the title background color and front-size*/
+h2 {
+  background-color:  rgb(80, 125, 125);
+  color: red;
+  text-align:center;
+  border-style: dotted;
+  border-width: 3px 12px 2px 18px;
+}
+
+
+p {
+  /*change all paragraphs'font*/
+    font-family: "Times New Roman", Georgia;
+    text-indent: 30px;
+    position:relative;
+    top:20px;
+    
+}
+
+
+h1.big{
+  line-height: 150%;
+
+}
+
+/*change the link color*/
+a:hover{
+  color:green;
+}
+
+/*change the background color of the form*/
+
+  textarea:hover{
+    background-color:  rgba(125, 125, 125, 0.8);
+  }
+
+#mybest_places{
+   height: 300px;
+   overflow: scroll;
+   /*move things to middle*/
+   max-width: 700px;
+   margin:auto;
+   padding: 60px 40px 60px 90px;
+   /*add shading*/
+  box-shadow: 20px 20px 10px #777777;
+  }
+
+/*from inline to block element*/
+a{
+  display: block;
+
+}
+
+/*
+list styling
+*/
+
+
+
+ul{
+  list-style-type: lower-alpha;
+  list-style-position: inside;
+}
+ul.places{
+  list-style-type: circle;
+  list-style-image:  url('images/imgmuse.JPG');
+
+}
+
+#listItems{
+  position: fixed; top: -15px; right: 50px;
+}
+
+
+/*table styling*/
+
+table{
+  border-spacing: 5px 10px;
+
+  padding: 10px;
+
+}
+table:hover{
+  background-color:rgb(255, 255,255);
+  border-collapse: collapse;
+}
+
+/*form styling*/
+textarea{
+  width: 100%;
+  padding:10px 20px;
+  box-sizing: border-box;
+  font: 50px "Times New Roman", Times, serif;
+}
+input{
+  text-shadow: 20px 20px 10px #777777;
+  border-bottom: 1px solid #efefef;
+}
+
+/*Colums creation taken from http://www.w3schools.com/ */
+.history {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    -webkit-column-gap: 40px;
+    -moz-column-gap: 40px;
+    column-gap: 40px;
+    -webkit-column-rule: 1px solid lightgreen;
+    -moz-column-rule: 1px solid lightblue;
+    column-rule: 1px solid lightgreen;
+}
